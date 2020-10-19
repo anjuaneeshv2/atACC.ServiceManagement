@@ -28,6 +28,7 @@ namespace atACC.ServiceManagement
             db = atContext.CreateContext();
         }
         #endregion
+
         #region Private Variables
         ToolTip tooltip;
         atACCContextEntities db;
